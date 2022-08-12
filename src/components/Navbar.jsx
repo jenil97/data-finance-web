@@ -19,11 +19,11 @@ const Navbar = () => {
         <li className="p-4">Contact</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
       <div
         className={
-          !nav
+          nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
