@@ -28,7 +28,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl text-[#00df9a] m-4">REACT.</h1>
+        <h1 className="w-full text-3xl text-[#00df9a] m-4">DATA.</h1>
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600">Home</li>
           <li className="p-4 border-b border-gray-600">Company</li>
